@@ -10,6 +10,51 @@ body{
     background-color: #cee3ea !important;
 }
 
+/* Sticky Navbar */
+.sticky-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white; /* Adjust the background color as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+}
+
+/* Customize the appearance of the navbar */
+.customizenav {
+    background-color: #f8f9fa; /* Change this to your preferred color */
+    padding: 10px 20px;
+    border-bottom: 1px solid #000000; /* Optional border */
+}
+
+/* Navbar brand styling */
+.navtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333; 
+}
+
+/* Login/Signup button styling */
+.loginsignup {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.loginsignup a {
+    color: white;
+    text-decoration: none;
+}
+
+.loginsignup:hover {
+    background-color: #0056b3;
+}
+
+
 :root{
     --primary-color: #254E58; /* Dark Teal */
     --secondary-color: #b6f0ef; /* Light Teal */

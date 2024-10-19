@@ -13,13 +13,55 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Sticky Navbar */
+.sticky-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white; /* Adjust the background color as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+}
 
+/* Customize the appearance of the navbar */
+.customizenav {
+    background-color: #f8f9fa; /* Change this to your preferred color */
+    padding: 10px 20px;
+    border-bottom: 1px solid #000000; /* Optional border */
+}
+
+/* Navbar brand styling */
+.navtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333; 
+}
+
+/* Login/Signup button styling */
+.loginsignup {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.loginsignup a {
+    color: white;
+    text-decoration: none;
+}
+
+.loginsignup:hover {
+    background-color: #0056b3;
+}
 :root{
-    --primary-color: #254E58; /* Dark Teal */
-    --secondary-color: #88BDBC; /* Light Teal */
-    --dark-taupe: #4F4A41; /* Dark Taupe */
-    --deep-green-blue: #112D32; /* Deep Green-Blue */
-    --muted-brown-grey: #6E6658; /* Muted Brown-Grey */
+    --primary-color: #254E58; 
+    --secondary-color: #88BDBC; 
+    --dark-taupe: #4F4A41; 
+    --deep-green-blue: #112D32;
+    --muted-brown-grey: #6E6658; 
     --heading-h1-font-size: 2.75rem;
     --heading-h2-font-size: 2rem;
     --heading-h3-font-size: 1.5rem;
@@ -135,8 +177,8 @@ body {
     color: #254E58;
 }
 .footermain {
-    background-color: var(--primary-color); /* Dark Teal */
-    color: var(--secondary-color); /* Light Teal */
+    background-color: var(--primary-color);
+    color: var(--secondary-color); 
     padding: 20px
 }
 .footer {
@@ -151,7 +193,7 @@ body {
 }
 
 .footer-logos a {
-    margin: 0 15px;  /* Adds space between the logos */
+    margin: 0 15px;  
     display: inline-block;
 }
 

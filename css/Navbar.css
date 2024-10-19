@@ -7,7 +7,6 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    
 }
 
 :root{
@@ -21,17 +20,21 @@ body{
     --heading-h3-font-size: 1.5rem;
     --heading-h4-font-size: 1.125rem;
     --heading-h5-font-size: 1rem;
-
-
 }
+
 .navbar{
     z-index: 1000;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 .customizenav{
     background-color: var(--primary-color)!important;
     z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
 }
+
 .collapse ul li{
     padding: 8px 15px;
     font-size: var(--heading-h4-font-size);
@@ -63,13 +66,3 @@ body{
     background-color: var(--darkershadeofsecondarycolor)!important;
     color: var(--secondary-color)!important;
 }
-
-nav.customizenav {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
-    background-color: white; 
-}
-
-
-
-
-

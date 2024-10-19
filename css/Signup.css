@@ -87,13 +87,13 @@
             border-radius: 20px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             padding: 40px;
-            width: px; /* Width of the container */
-            color: #fff; /* Text color */
-            text-align: center; /* Center text */
+            width: px; 
+            color: #fff; 
+            text-align: center; 
         }
         .signup-container h2 {
             margin-bottom: 20px;
-            font-size: 24px; /* Font size for heading */
+            font-size: 24px; 
         }
         .input-field {
             margin-bottom: 15px;
