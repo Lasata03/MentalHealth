@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    background-color: #cee3ea !important;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #254E58; /* Dark Teal */
+    --secondary-color: #88BDBC; /* Light Teal */
+    --dark-taupe: #4F4A41; /* Dark Taupe */
+    --deep-green-blue: #112D32; /* Deep Green-Blue */
+    --muted-brown-grey: #6E6658;
+    --complementary-colorof-primary:#5a090e;
+    --heading-h1-font-size: 2.75rem;
+    --heading-h2-font-size: 2rem;
+    --heading-h3-font-size: 1.5rem;
+    --heading-h4-font-size: 1.125rem;
+    --heading-h5-font-size: 1rem;
+    --light-background-color: #2ecc71;
+    --secondary-text-color:#FFA500; /* Muted Brown-Grey */
+}
+.faqimg {
+    width: 100%;    
+    height: 30vh;
+    background-image: url("../images/teal-885329_1920.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card {
+    background-color: #ffffff;
+}
+.footermain {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.h1 {
+    color: #254E58;
+}
+.footermain {
+    background-color: var(--primary-color); /* Dark Teal */
+    color: var(--secondary-color); /* Light Teal */
+    padding: 20px
+}
+.footer {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-logos {
+    margin-bottom: 15px;
+}
+
+.footer-logos a {
+    margin: 0 15px;  /* Adds space between the logos */
+    display: inline-block;
+}
+
+.footer-logos img {
+    width: 20px;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.footer-logos img:hover {
+    opacity: 1;
+}
+
+.footer-copyright {
+    font-size: 14px;
+}
